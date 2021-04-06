@@ -1,0 +1,90 @@
+*{
+    margin-left:0px;
+    margin-right:0px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.5;
+}
+.nav-bar{
+    position: sticky;
+    top:0px;
+    background-color: white;
+    display:flex;
+    border-bottom: 1px solid black;
+    margin:0px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    justify-content: flex-end;
+    /*box-shadow: 5px 5px #797474;*/
+}
+.IMGLOGO{
+    margin-right: 500px;
+    position: sticky;
+    left:0;
+}
+.items{
+    margin-left: 10px;
+    margin-right:10px;
+}
+#last{
+    margin-right:200px;
+}
+.main-display{
+    display: flex;
+    color: white;
+}
+h1{
+    color: #f8d16c;
+    font-size: 50px;
+    background-color: #586474;
+}
+.left{
+    width:53.5vw;
+    background-color: #293B52;
+    padding-top: 100px;
+    margin: 0px;
+    padding-bottom:450px;
+    /*min-height:100%;*/
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:46.5vw;
+    background-color:#F8D16C ;
+    padding-top: 100px;
+    padding-left: 100px;
+    /*min-height:100%*/
+}
+.Projects{
+    display: flex;
+    justify-content: center;
+}
+/*#project-img{
+    margin-top: 10px;
+}*/
+h2{
+    text-align: center;
+    border-bottom: 8px solid #f8d16c;
+    padding-bottom: 10px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    background-color: #293B52;
+    color: white;
+}
+.CONTACT-ABOUT{
+    display: inline-block;
+    width: 50vw;
+}
+footer{
+    background-color: #263146;
+    color:white;
+    margin: 0% !important;
+    padding:10px 50px;
+}
