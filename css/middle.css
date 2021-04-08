@@ -23,5 +23,8 @@
 }
 .button{
     text-align: center;
-    background-color: white;
+    /*background-color: white;*/
+}
+button{
+    background: white;;
 }
