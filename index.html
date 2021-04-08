@@ -5,17 +5,21 @@
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/all.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/middle.css">
+        <link rel="stylesheet" href="css/navbar.css">
     </head>
     <body>
-        <div class="nav-bar">
-            <div class="IMGLOGO"><a href="#"><img src="images/imglogo.png" height="40" width=auto></a></div>
-            <div class="items"><a href="blog.html">BLOG</a></div>
-            <div class="items"><a href="#">PROJECTS</a></div>
-            <div class="items"><a href="#">TEAM</a></div>
-            <div class="items"><a href="#">ALUMNI</a></div>
-            <div class="items"><a href="#">*MEMBER</a></div>
-            <div class="items" id="last"><a href="#">*PROJECT</a></div>
-        </div>
+        <navbar>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html"><img src="images/imglogo.png" width="49" height=auto></a>
+                </li>
+                <li class="nav-item items"><a href="blog.html">BLOG</a></li>
+                <li class="nav-item items"><a href="#">PROJECTS</a></li>
+                <li class="nav-item items"><a href="#">TEAM</a></li>
+                <li class="nav-item items"><a href="#">ALUMNI</a></li>
+            </ul>
+        </navbar>
         <div class="main-display">
             <div class="left"><div id="left"><h1><div>Playing with</div><div> new ideas</div></h1><p>The group flaunts a wide spectrum of projects, influencing over eight thousand lives on campus.</p></div></div>
             <div class="right"><div id="right"></div><img src="images/computer.png" width=450px height=auto class="comp"></div></div>
@@ -26,13 +30,18 @@
         </div>
         <div id="PROJECT">
             <a href="#">
-                <div>
-                    <div>1</div><div><h2>R drive</h2><br>An inhouse solution for the media <br> storage and sharing at IIT-R.</div>
-                    <div>2</div><div><h2>Noticeboard</h2><br>The official e-noticeboard of IIT-R.</div>
-                    <div>3</div><div><h2>No Dues</h2><br>Digitises the hectic process of obtaining no dues which were previously to be taken from 12-15 offices individually now from your personal desktop.</div>
-                    <div>4</div><div><h2>Connect-e-dil</h2><br>A fun app active in valentine's week(that time of the year), where students can send and receive roses(even anonymously), make couples, vote for other couples and shoutout their heart out.</div>
+                <div class="flex-middle">
+                    <div><div class="serial-no">1</div><div class="project-head"><b>R drive</b></div><p class="project-about">An inhouse solution for the media storage and sharing at IIT-R.</p></div>
+                    <div><div class="serial-no">2</div><div class="project-head"><b>Noticeboard</b></div><p class="project-about">The official e-noticeboard of IIT-R.</p></div>
+                    <div><div class="serial-no">3</div><div class="project-head"><b>No Dues</b></div><p class="project-about">Digitises the hectic process of obtaining no dues which were previously to be taken from 12-15 offices individually now from your personal desktop.</p></div>
+                    <div><div class="serial-no">4</div><div class="project-head"><b>Connect-e-dil</b></div><p class="project-about">A fun app active in valentine's week(that time of the year), where students can send and receive roses(even anonymously), make couples, vote for other couples and shoutout their heart out.</p></div>
                 </div>
             </a>
+        </div>
+        <div class="button">
+            <button>
+                VIEW MORE
+            </button>
         </div>
         <div><h2>Blog</h2></div>
         <div id="Blog">

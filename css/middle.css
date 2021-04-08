@@ -1,0 +1,27 @@
+.serial-no{
+    text-align : left ; 
+    font-size: 180px ; 
+    margin-bottom:-150px;
+    color: rgba(248, 209, 108, 0.5)
+}
+.project-head{
+    font-size: 26px;
+    text-align: right
+}
+.project-about{
+    color:#99999999;
+    font-style: italic;
+    /*max-width: 25%;*/
+}
+.flex-middle{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.flex-middle div{
+    max-width:20%;
+}
+.button{
+    text-align: center;
+    background-color: white;
+}
