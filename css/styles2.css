@@ -83,3 +83,12 @@ span{
 .name{
     width:30px;
 }
+.items a{
+    color: black;
+    text-decoration: none;
+}
+@media only screen and (min-width:500px){
+    .active{
+        border-bottom: 2px solid black;
+    }
+}
