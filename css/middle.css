@@ -1,4 +1,4 @@
-.serial-no{
+/*.serial-no{
     text-align : left ; 
     font-size: 180px ; 
     margin-bottom:-150px;
@@ -12,7 +12,7 @@
     color:#99999999;
     font-style: italic;
     /*max-width: 25%;*/
-}
+/*}
 .flex-middle{
     display: flex;
     justify-content:center;
@@ -20,11 +20,48 @@
 }
 .flex-middle div{
     max-width:20%;
+}*/
+.btn{
+    text-align: center;
 }
 .button{
-    text-align: center;
-    /*background-color: white;*/
+    padding: 0.5em 1em;
+    background-color: white;
+    font-family: typoPRO bebas neue;
+    font-size: 1.1rem;
+    border: 2px solid #263146;
+    /*align-content: center;*/
+    cursor: pointer;
 }
-button{
-    background: white;;
+
+.button:hover{
+    background-color: #f8d06c
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+.link{ 
+    font-size: 14px;
+    padding-right:40px ;padding-left: 40px; padding-top: 30px; 
+    width: 165px;
+    text-align: right;
+    margin-left: 50px;
+}
+.link1{
+    flex-grow: 2;
+}
+.link2{
+    flex-grow: 2;
+}
+#projectpage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link3{
+    flex-grow: 2;
+}
+.link4{
+    flex-grow: 2;
 }

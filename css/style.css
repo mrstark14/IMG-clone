@@ -126,6 +126,9 @@ span{
 .fab{
     color: #fff;
 }
+a .fab{
+    cursor: default;
+}
 a .fab:hover{
     color: #f8d16c;
 }
@@ -133,17 +136,22 @@ a .fab:hover{
     margin-left: 0;
 }
 #project{
-    display: inline-block;
-    justify-self: center;
-    font-size: 32px;
+    font-size: 24px;
     font-family: 'Playfair Display';
-    border-bottom: 0.2em #f8d16c solid;
-    padding-left: 0.8em;
+    margin-top:-10px;
     color: #3b3736;
-    padding-right: 0.8em;
-    padding-bottom: 0.3em;
-    margin: 0.5em 0 0.5em 0 !important;
+    padding-bottom: 0px;
+    text-align: center;
 }
 .comp{
     max-width:100%;
+}
+.p{
+    display: inline-block;
+    border-bottom: 0.3em #f8d16c solid;
+    padding-left: 0.8em;
+    margin: 0.5em 0 0.5em 0 !important;
+    padding-right: 0.8em;
+
+    padding-left: 0.8em;
 }
