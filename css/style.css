@@ -143,9 +143,6 @@ a .fab:hover{
     padding-bottom: 0px;
     text-align: center;
 }
-.comp{
-    max-width:100%;
-}
 .p{
     display: inline-block;
     border-bottom: 0.2em #f8d16c solid;
@@ -154,4 +151,10 @@ a .fab:hover{
     padding-right: 0.8em;
     padding-bottom: 10px;
     padding-left: 0.8em;
+}
+@media only screen and (min-width:1100px){
+    .comp{
+        max-width:100%;
+    }
+    
 }
