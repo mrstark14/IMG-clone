@@ -134,5 +134,12 @@
     width:55%;
     font-family: lato;
     margin-left: 25%;
- }
+}
+.end{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.nav-list{
+    box-shadow: none;
+}
  
