@@ -118,7 +118,7 @@
   margin-top:30vh;
 }
 .pageone{
-    background-image: url("https://channeli.in//static/maintainer_site/background.svg");
+    background-image: url("../images/bg.svg");
     background-size:cover;
     background-position: center;
     
@@ -142,4 +142,28 @@
 .nav-list{
     box-shadow: none;
 }
- 
+.pn{
+    text-align : left ; 
+    font-size: 180px ; 
+    margin-bottom:-150px;
+    color: rgba(248, 209, 108, 0.5);
+}
+.pc{
+    color:#99999999  ;
+    font-style: italic;
+}
+#Playing{
+    margin-top:30vh; 
+    margin-left: 25%; 
+    font-size : 60.2px ; 
+    color : #f8d06c;  
+    width:42%;  
+    background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% )
+}
+#new{
+    font-size : 60.2px ; 
+    margin-left: 25%; 
+    color : #f8d06c;   
+    width:33%; 
+    background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );
+}
