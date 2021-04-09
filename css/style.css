@@ -42,12 +42,12 @@ a{
     justify-content: center;
     margin-top: 0%;
 }
-h1{
+/*h1{
     color: #f8d16c;
     font-size: 50px;
     background-color: #586474;
     display: inline;
-}
+}*/
 .left{
     display: flex;
     justify-content: flex-end;
@@ -135,8 +135,8 @@ a .fab:hover{
 .initial{
     margin-left: 0;
 }
-#project{
-    font-size: 24px;
+.project{
+    font-size: 32px;
     font-family: 'Playfair Display';
     margin-top:-10px;
     color: #3b3736;
@@ -148,10 +148,10 @@ a .fab:hover{
 }
 .p{
     display: inline-block;
-    border-bottom: 0.3em #f8d16c solid;
+    border-bottom: 0.2em #f8d16c solid;
     padding-left: 0.8em;
     margin: 0.5em 0 0.5em 0 !important;
     padding-right: 0.8em;
-
+    padding-bottom: 10px;
     padding-left: 0.8em;
 }
