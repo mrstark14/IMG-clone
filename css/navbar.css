@@ -27,7 +27,7 @@
 .items a:hover{
     opacity: 0.5;
 }*/
-@media only screen and (min-width:500px){
+@media only screen and (min-width:700px){
     .nav-list{
         background: white;
         margin:0;
@@ -68,7 +68,7 @@
         display:none;
     }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 700px){
     label{
         display: block;
         cursor: pointer;
