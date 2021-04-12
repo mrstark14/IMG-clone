@@ -99,3 +99,6 @@ span{
     position:absolute;
     bottom: 0;
 }*/
+.main{
+    min-height: 100vh;
+}
