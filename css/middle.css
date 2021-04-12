@@ -316,6 +316,7 @@ h1{
 .info p{
     margin-left: 10vw;
     font-size: 20px;
+    line-height: 28px;
     color: white;
     font-family: lato;
 }
