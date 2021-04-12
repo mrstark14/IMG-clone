@@ -1,3 +1,7 @@
+@font-face {
+    font-family: typoPRO bebas neue;
+    src: url(https://cdn.jsdelivr.net/npm/@typopro/web-bebas-neue@3.7.5/TypoPRO-BebasNeue.min.css);
+}
 body{
     margin:0;
 }
@@ -60,7 +64,6 @@ footer{
     background: #293B52;
     padding:15px 190px;
     color:white;
-
 }
 .nav-item:first-child{
     margin-right:auto;
@@ -96,3 +99,6 @@ span{
     position:absolute;
     bottom: 0;
 }*/
+.main{
+    min-height:100vh;
+}
