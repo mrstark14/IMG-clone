@@ -187,7 +187,7 @@ footer{
     line-height: 2;
     width:55%;
     font-family: lato;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .end{
     display: flex;
@@ -208,7 +208,7 @@ footer{
 }
 #Playing{
     margin-top:30vh; 
-    margin-left: 25%; 
+    margin-left: 15%; 
     font-size : 60.2px ; 
     color : #f8d06c;  
     width:42%;  
@@ -216,7 +216,7 @@ footer{
 }
 #new{
     font-size : 60.2px ; 
-    margin-left: 25%; 
+    margin-left: 15%; 
     color : #f8d06c;   
     width:33%; 
     background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );
