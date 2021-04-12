@@ -79,8 +79,15 @@
         text-align: right;
         display:none;
     }
+    .nav{
+        display: none;
+    }
 }
 @media only screen and (max-width: 1100px){
+    navbar{
+        display:flex;
+        justify-content: flex-end;
+    }
     label{
         display: block;
         cursor: pointer;
@@ -101,7 +108,13 @@
     .nav-item a{
         display: block;
     }
-    #toggle:checked + .nav-list{
+    /*#toggle:checked + .nav-list{
         display: block;
+    }*/
+    .nav{
+        margin-right: 80%;
+        position: sticky;
+        left:20px;
+        padding:1rem 0;
     }
 }
