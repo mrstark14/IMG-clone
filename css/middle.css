@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap');
+@font-face {
+    font-family: typoPRO bebas neue;
+    src: url(https://cdn.jsdelivr.net/npm/@typopro/web-bebas-neue@3.7.5/TypoPRO-BebasNeue.min.css);
+}
+#address1 p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+.blogdata p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+.pc{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+}
+div b{
+    font-family: 'Playfair Display', serif;
+    font-style:normal;
+    font-size: 20px;
+    line-height:20px;
+}
+#address{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.detail{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+footer{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
 /*.serial-no{
     text-align : left ; 
     font-size: 180px ; 
@@ -39,12 +90,15 @@
 }
 .container2{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-grow: 2;
 }
 .link{ 
     font-size: 14px;
-    padding-right:40px ;padding-left: 40px; padding-top: 30px; 
+    /*padding-right:40px ;
+    padding-left: 40px;*/ 
+    padding-top: 30px; 
     width: 165px;
     text-align: right;
     margin-left: 50px;
@@ -149,7 +203,7 @@
     color: rgba(248, 209, 108, 0.5);
 }
 .pc{
-    color:#99999999  ;
+    color:#999999  ;
     font-style: italic;
 }
 #Playing{
@@ -169,4 +223,21 @@
 }
 .CONTACT-ABOUT{
     min-width:500px;
+}
+.p b{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height:41px;
+}
+.link{
+    max-width:230px;
+}
+.pn{
+    font-family: typoPRO bebas neue;   
+}
+h3{
+    font-family: typoPRO bebas neue;
+    font-weight:700;
+    font-size: 21px;
+    line-height: 42px;
 }
