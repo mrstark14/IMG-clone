@@ -350,6 +350,12 @@ h1{
     }
     .CONTACT-ABOUT{
         width:75vw !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .mediafont{
+        margin-top:10px;
+        margin-bottom: 10px;
     }
 }
 @media only screen and (min-width:1100px){
