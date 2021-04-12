@@ -176,7 +176,7 @@ footer{
     background-size:cover;
     background-position: center;
     
-    width: 100%;
+    width: 100%0;
     height: 100vh;
     flex-wrap: wrap;
 }
@@ -230,7 +230,8 @@ footer{
     line-height:41px;
 }
 .link{
-    max-width:230px;
+    min-width:230px;
+    display: inline-block;
 }
 .pn{
     font-family: typoPRO bebas neue;   
@@ -240,4 +241,34 @@ h3{
     font-weight:700;
     font-size: 21px;
     line-height: 42px;
+}
+@media only screen and (max-width: 600px){
+    .link{
+        display:block;
+        width: 88%;
+    }
+    .pn{
+        text-align: left;
+    }
+    .comp{
+        display: none;
+    }
+    #address1 p{
+        width:88%
+    }
+    .pageone{
+        background-image: url("../images/bg1.png");
+    }
+    #Playing{
+        font-size: 32px;
+        margin-left: 10px;
+    }
+    #new{
+        font-size:32px;
+        margin-left: 10px;
+    }
+    .para{
+        font-size:16px;
+        margin-left:10px;
+    }
 }
