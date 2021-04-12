@@ -243,8 +243,11 @@ h3{
     line-height: 42px;
 }
 @media only screen and (max-width: 600px){
+    *{
+        margin:0;
+    }
     .link{
-        display:block;
+        display:inline-block;
         width: 88%;
     }
     .pn{
@@ -254,21 +257,15 @@ h3{
         display: none;
     }
     #address1 p{
-        width:88%
+        width:80%
     }
     .pageone{
         background-image: url("../images/bg1.png");
     }
-    #Playing{
-        font-size: 32px;
-        margin-left: 10px;
+    .CONTACT-ABOUT{
+        display: inline-block;
     }
-    #new{
-        font-size:32px;
-        margin-left: 10px;
-    }
-    .para{
-        font-size:16px;
-        margin-left:10px;
+    #address{
+        width:88%;
     }
 }
