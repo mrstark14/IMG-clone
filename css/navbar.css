@@ -87,6 +87,9 @@
     navbar{
         display:flex;
         justify-content: flex-end;
+        position: sticky;
+        top:0;
+        background: white;
     }
     label{
         display: block;
